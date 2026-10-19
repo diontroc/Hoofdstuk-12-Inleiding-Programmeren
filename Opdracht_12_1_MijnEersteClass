@@ -1,0 +1,17 @@
+class Leerling {
+  String naam;
+  String leeftijd;
+  int klas;
+
+Leerling(String nieuwNaam, String nieuwLeeftijd, int nieuwKlas) {
+  naam = nieuwNaam;
+  leeftijd = nieuwLeeftijd;
+  klas = nieuwKlas;
+}
+}
+
+void setup() {
+  Leerling mijnLeerling = new Leerling("Rob", "16", 3);
+ println(mijnLeerling);
+ println("A JE TO! Zoals de Tsjechen zeggen");
+ }
